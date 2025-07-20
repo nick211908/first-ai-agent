@@ -5,7 +5,7 @@ import datetime
 import re
 import json
 
-genai.configure(api_key='AIzaSyBMv1FgreKcueG8R6uP75SRBsHHQiPmkVQ')
+genai.configure(api_key='')
 messages = []
 model_name = "gemini-1.5-flash"
 model = genai.GenerativeModel(model_name).start_chat(history=messages)
